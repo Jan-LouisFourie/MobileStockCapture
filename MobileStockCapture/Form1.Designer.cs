@@ -44,49 +44,49 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(127, 110);
+            this.label1.Location = new System.Drawing.Point(103, 110);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 25);
+            this.label1.Size = new System.Drawing.Size(123, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.label1.Text = "Mobile Code";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(127, 158);
+            this.label2.Location = new System.Drawing.Point(103, 158);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 25);
+            this.label2.Size = new System.Drawing.Size(61, 25);
             this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.label2.Text = "Make";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(127, 208);
+            this.label3.Location = new System.Drawing.Point(103, 208);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 25);
+            this.label3.Size = new System.Drawing.Size(85, 25);
             this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.label3.Text = "Quantity";
             // 
             // txtCode
             // 
-            this.txtCode.Location = new System.Drawing.Point(232, 114);
+            this.txtCode.Location = new System.Drawing.Point(250, 114);
             this.txtCode.Name = "txtCode";
             this.txtCode.Size = new System.Drawing.Size(195, 22);
             this.txtCode.TabIndex = 3;
             // 
             // txtMake
             // 
-            this.txtMake.Location = new System.Drawing.Point(232, 162);
+            this.txtMake.Location = new System.Drawing.Point(250, 162);
             this.txtMake.Name = "txtMake";
             this.txtMake.Size = new System.Drawing.Size(195, 22);
             this.txtMake.TabIndex = 4;
             // 
             // txtQuantity
             // 
-            this.txtQuantity.Location = new System.Drawing.Point(232, 212);
+            this.txtQuantity.Location = new System.Drawing.Point(250, 212);
             this.txtQuantity.Name = "txtQuantity";
             this.txtQuantity.Size = new System.Drawing.Size(195, 22);
             this.txtQuantity.TabIndex = 5;
@@ -95,6 +95,7 @@
             // 
             this.lblOutput.Location = new System.Drawing.Point(103, 33);
             this.lblOutput.Name = "lblOutput";
+            this.lblOutput.ReadOnly = true;
             this.lblOutput.Size = new System.Drawing.Size(381, 22);
             this.lblOutput.TabIndex = 6;
             // 
@@ -106,6 +107,7 @@
             this.btnAdd.TabIndex = 7;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnDelete
             // 
@@ -115,6 +117,7 @@
             this.btnDelete.TabIndex = 8;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnFind
             // 
@@ -124,6 +127,7 @@
             this.btnFind.TabIndex = 9;
             this.btnFind.Text = "Find";
             this.btnFind.UseVisualStyleBackColor = true;
+            this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
             // 
             // Form1
             // 
