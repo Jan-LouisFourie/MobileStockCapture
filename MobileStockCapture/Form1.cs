@@ -36,10 +36,10 @@ namespace MobileStockCapture
             }   
         }
 
-        public static string Add(string text1, string text2, int v)
-        {
-            throw new NotImplementedException();
-        }
+        //public static string Add(string text1, string text2, int v)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
